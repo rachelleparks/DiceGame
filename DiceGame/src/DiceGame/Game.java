@@ -19,7 +19,12 @@ public class Game {
 		      System.out.println("The die is a " + dieNum);
 		   
 		      // write the rest of your code below
-		        
+		      if(enteredNum == dieNum) {
+		    	System.out.print("You Won " + 10 * enteredBet + " dollars.");
+			     }   
+		      else{
+		    	  System.out.print("Sorry you lose");
+		      }
 		   }
 
 	public int getEnteredNum() {
